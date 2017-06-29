@@ -10,6 +10,10 @@ namespace COMP123_week08
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n");
+            Person person = new Person("Angela",25);
+            person.Talks();
+            Console.WriteLine("\n");
         }
     }
 }
